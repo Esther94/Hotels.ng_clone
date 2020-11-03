@@ -7,26 +7,87 @@
   
   .heading{
     display: flex;
+    height: 73px;
     background-color: #00aeff;
   }
 
   .logo{
+    margin-top: 3px;
+    padding-left: 55px;
     color: #fff;
     width: 10rem;
-    height: 10rem;
+    height: 15rem;
     font-weight: 900;
   }
 
+  .navbar{
+    /* padding-left: 50px; */
+  }
+
   .nav-ul{
-    display: inline;
-    padding:1.5px;
+   margin-left: 50px;
+    
   }
 
   .navbar-icon{
     width: 2rem;
     height: 2rem;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 2;
+    left: 45rem;  
   }
 
   .navlist{
-   
+    display: inline;
+    padding:0px 10px;
   }
+
+  .btn{
+    padding: 0.5rem;
+    background-color: darkblue;
+    position: absolute;
+    z-index: 1;
+    left: 50rem;
+    margin: 20px;
+    bottom: 44.8rem;
+    color: #fff;
+    padding-left: 2rem;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+
+  .contact-image{
+    position: absolute;
+    z-index: 2;
+    left: 47.3rem;
+    margin: 20px;
+    bottom: 44.6rem;
+    color: #fff;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .humpic{
+    max-width: 100%;
+  }
+.nijahotels{
+  color: #fff;
+  position: absolute;
+  bottom: 35rem;
+  z-index: 1;
+  left: 30rem;
+}
+
+.diff-hotels{
+  color: #fff;
+  position: absolute;
+  bottom: 30rem;
+  z-index: 2;
+  top: 15rem;
+  left: 35rem;
+}

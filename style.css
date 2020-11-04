@@ -183,3 +183,8 @@ form{
 .hotel-deals{
   margin-top: 2px;
 }
+
+.image-of-hotel-rooms{
+  display: grid;
+  grid-gap: 20px;
+}

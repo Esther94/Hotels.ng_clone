@@ -4,85 +4,139 @@
   padding: 0;
   font-family:lato, sans-serif;
   }
-  
+
   .heading{
-    display: flex;
-    height: 73px;
+    display: grid;
     background-color: #00aeff;
   }
 
   .logo{
-    margin-top: 3px;
-    padding-left: 55px;
+    padding-left: 60px;
     color: #fff;
-    width: 10rem;
-    height: 15rem;
-    font-weight: 900;
-  }
-
-  .nav-ul{
-   margin-left: 50px;
-  }
-
-  .navbar-icon{
-    width: 2rem;
-    height: 2rem;
-    margin-top: 15px;
-    position: absolute;
-    z-index: 2;
-    left: 45rem;  
+    font-weight: 100;
   }
 
   .navlist{
-    display: inline;
-    padding:0px 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
   }
+    
+  .navbar-icon{
+    width: 2rem;
+    height: 2rem;
+  } 
 
-  .btn{
-    padding: 0.5rem;
+   .btn{
+    padding: 0.1rem;
     background-color: darkblue;
-    position: absolute;
-    z-index: 1;
-    left: 50rem;
-    margin: 20px;
-    bottom: 44.8rem;
-    color: #fff;
-    padding-left: 2rem;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-  }
-
-  .contact-image{
-    position: absolute;
-    z-index: 2;
-    left: 47.3rem;
-    margin: 20px;
-    bottom: 44.6rem;
     color: #fff;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
-    height: 3.5rem;
-    width: 3.5rem;
+  }  
+
+    .contact-image{
+    color: #fff;
+    border-radius: 35px;
+    height: 2.6rem;
+    width: 2.6rem;
+    margin-left: 90px
+  } 
+
+    .text{
+    font-size: 10px;
+    line-height: 12px;
+    color: #00aeff;
   }
 
-  .humpic{
-    max-width: 100%;
+   .icon1{
+    padding-left: 201px;
+   }
+    .icon2{
+      margin-right: 42px
+    }
+
+   .icon3{
+  padding-left: 201px;
+   }
+
+  .acct{
+    color: #fff;
+    margin-right: 42px
   }
+ 
+.icon-whatsapp{
+  padding-left: 201px;
+} 
+
+.icon1{
+  border-left: 1px solid;
+  min-height: 40x;
+  border-color: #fff;
+}
+.icon2{
+  border-right: 1px solid;
+  min-height: 40x;
+  border-color: #fff;
+} 
+
+.humpic{
+  width: 100%;
+  height: 100%;
+  max-width: auto;
+  background: rgba(51, 51,51);
+}
+
+
 .nijahotels{
-  color: #fff;
-  position: absolute;
-  bottom: 35rem;
-  z-index: 1;
-  left: 30rem;
+color: #fff;
+position: absolute;
+bottom: 35rem;
+z-index: 1;
+left: 30rem;
 }
 
 .diff-hotels{
-  color: #fff;
-  position: absolute;
-  bottom: 30rem;
-  z-index: 2;
-  top: 15rem;
-  left: 35rem;
+color: #fff;
+position: absolute;
+bottom: 20rem;
+top: 15rem;
+left: 30.5rem;
+}  
+
+.subsection{
+  width: 70%;
 }
+
+form{
+  display: grid;
+  position: sticky;
+  grid-gap:1rem;
+  grid-template-columns:3fr repeat(1,2fr) 1fr;
+  background: #fff;
+  padding: 30px 40px 30px 40px;
+  position: relative;
+  bottom: 3rem;
+  z-index: 20%;
+  left: 12rem;
+  box-shadow: 1px +6px +25px #888888;
+}
+
+.block{
+  border: 1px solid;
+  padding: 20px 20px 20px 40px;
+  border-radius: 5px;
+}
+
+.date{
+  border: 1px solid;
+  padding: 20px 20px 20px 40px;
+  border-radius: 5px;
+}
+  
+.hotels{
+  padding: 8px 12px;
+  color: #fff;
+  background: #00aeff;
+  border-radius: 5px;
+} 
+

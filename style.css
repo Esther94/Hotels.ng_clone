@@ -77,7 +77,8 @@
   border-right: 1px solid;
   min-height: 40x;
   border-color: #fff;
-} 
+}
+ 
 
 .humpic{
   width: 100%;
@@ -115,6 +116,7 @@ form{
   padding: 30px 40px 30px 40px;
   position: relative;
   bottom: 3rem;
+  top: 0;
   left: 12rem;
   box-shadow: 1px +6px +25px #888888;
 }
@@ -139,7 +141,7 @@ form{
 } 
 
 .secondsection{
-  margin-left: 290px;
+  margin-left: 174px;
 }
 
 .section2header{
@@ -147,6 +149,7 @@ form{
   color: #4f4f4f;
   font-weight: 700;
   margin-top: 2px;
+  margin-right: 243px;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -155,18 +158,21 @@ form{
   font-size: 18px;
   font-weight: 500;
   color: #4f4f4f;
+  margin-right: 243px;
   text-align: center;
 }
 
 .skyblue-tinyline{
   margin: 1.5rem auto;
-  width: 4rem;
+  width: 3rem;
+  margin-right: 795px;
   border-top: 3px solid #00aeff;
 }
 
 .city-container{
   display: grid;
   grid-gap:2rem;
+  margin-right: 227px;
   grid-template-columns: repeat(6, 1fr);
 }
 
@@ -187,4 +193,82 @@ form{
 .image-of-hotel-rooms{
   display: grid;
   grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 227px;
+  margin-bottom: 60px;
+}
+
+.border{
+  border: 1px solid gray;
+  border-top: 0px;
+  border-radius: 5px;
+  width: min-content;
+} 
+
+.hotelname{
+  color: #00aeff;
+  padding-left: 10px;
+  margin: 3px;
+}
+
+.state-hotel{
+  font-size: 11px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+ .hotel-in-9ja-cities{
+    display: grid;
+    grid-gap:25px;
+    grid-template-columns: repeat(3, 1fr); 
+} 
+
+.numbers-of-hotels-in-a-state{
+  display: grid;
+  grid-gap:25px;
+  margin-right: 227px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.statename-style{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00aeff;
+}
+
+.styes{
+  font-size: 12px;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+.thirdsection{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin: 2rem 0;
+  background-color: #fafafa;
+}
+
+.thirdsection-header{
+  font-size: 24px;
+  color: #4f4f4f;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.thirdsection-text{
+  text-align: ;
+}
+
+.form2{
+  padding: 20px;
+  max-width: 100%;
+  display: grid;
+  grid-gap:1rem;
+  grid-template-columns:2fr repeat(1,1fr) 1fr;
+  background: #ffffff;
 }

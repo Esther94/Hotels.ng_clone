@@ -120,6 +120,7 @@ form{
   box-shadow: 1px +6px +25px #888888;
   width: 70%;
   margin: -40px auto 0 auto;
+  z-index: 10;
   /* position: sticky;
   top: 0px; */
 }
@@ -311,9 +312,14 @@ form{
   border-top: 3px solid #00aeff;
 }
 
-.thirdsectionli{
+.ullogo{
   display: flex;
-  flex-direction: column;
+  margin-left: 15rem;
+}
+
+.thirdsectionli{
+  display: inline;
+  padding: 4rem;  
 }
 
 .get-bookings-4-ur-hotel{
@@ -366,8 +372,7 @@ text-align: center;
   padding: 2rem;
   width: 100%;
   bottom: 11.5rem;
-  position: relative;
-  
+  position: relative; 
 }
 
 .unlock-hotel-deals{

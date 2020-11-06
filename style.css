@@ -7,6 +7,7 @@
 
   .heading{
     display: grid;
+    max-width: 100%;
     background-color: #00aeff;
   }
 
@@ -79,46 +80,48 @@
   border-color: #fff;
 }
  
-
-.humpic{
+/* .humpic{
+  max-width: 100%;
+} */
+.firstsection{
+  background-image: url(./asset/images/hotels-homepage1\ image.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 100%;
-  max-width: auto;
+  height: 300px;
 }
-
-
-.nijahotels{
-color: #fff;
-position: absolute;
-bottom: 35rem;
-z-index: 1;
-left: 30rem;
+.find-search-nija-hotels{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 15rem;
+  color: #fff;
+  background: rgba(51, 51, 5,);
 }
-
-.diff-hotels{
-color: #fff;
-position: absolute;
-bottom: 20rem;
-top: 15rem;
-left: 30.5rem;
-}  
 
 .subsection{
-  width: 70%;
+  /* width: 70%; */
+  /* position: sticky;
+  top: 0; */
 }
 
 form{
   display: grid;
-  position: sticky;
   grid-gap:1rem;
   grid-template-columns:3fr repeat(1,2fr) 1fr;
   background: #fff;
   padding: 30px 40px 30px 40px;
-  position: relative;
-  bottom: 3rem;
-  top: 0;
-  left: 12rem;
+  /* position: relative;
+  bottom: 3rem; */
+  /* top: -40px; */
+  /* left: 12rem; */
   box-shadow: 1px +6px +25px #888888;
+  width: 70%;
+  margin: -40px auto 0 auto;
+  /* position: sticky;
+  top: 0px; */
 }
 
 .block{
@@ -217,9 +220,13 @@ form{
   margin: 5px;
 }
 
+.sub-sub-section2{
+  margin-top: 4rem;
+}
  .hotel-in-9ja-cities{
     display: grid;
-    grid-gap:25px;
+    grid-gap:1rem;
+    margin-right: 227px;
     grid-template-columns: repeat(3, 1fr); 
 } 
 
@@ -228,6 +235,7 @@ form{
   grid-gap:25px;
   margin-right: 227px;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 4rem;
 }
 
 .statename-style{
@@ -243,10 +251,7 @@ form{
 }
 
 .thirdsection{
-  display: flex;
-  flex-direction: column;
   padding: 4rem;
-  margin: 2rem 0;
   background-color: #fafafa;
 }
 
@@ -254,21 +259,177 @@ form{
   font-size: 24px;
   color: #4f4f4f;
   font-weight: 700;
-  margin-top: 2px;
-  margin-bottom: 5px;
-  margin-top: 40px;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
 .thirdsection-text{
-  text-align: ;
+  text-align:center;
+  margin-bottom: 3rem;
+  font-size: 16px;
 }
 
-.form2{
-  padding: 20px;
-  max-width: 100%;
+.secret-hotel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-thirdsection{
+  background-color: #fff;
+}
+
+.email{
+  flex-direction: column;
+  border: 1px solid rgb(228, 216, 216);
+  background-color: #fff;
+  padding: 0.7rem;
+  width: 28rem;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.subscribebtn{
+ color: #fff;
+ background-color: #00aeff;
+ font-size: 14px;
+ max-width: 120px;
+ border-radius: 4px;
+ padding: 0.7rem;
+}
+
+.thirdsection-header{
+  margin-top: 6rem;
+}
+
+.skyblue-line{
+  margin: 1.5rem auto;
+  width: 3rem;
+  margin-left: 650px;
+  border-top: 3px solid #00aeff;
+}
+
+.thirdsectionli{
+  display: flex;
+  flex-direction: column;
+}
+
+.get-bookings-4-ur-hotel{
+text-align: center;
+}
+
+.add-ur-hotel-btn{
+  color: #fff;
+  background: #00aeff;
+  padding: 0.7rem;
+  border-radius: 4px;
+  width: 12rem;
+  text-align: center;
+  margin-top: 3px; 
+}
+
+.get-app-container{
+  background-color: #EFF8FB;
+  background-size: cover;
+  display: flex;
+  min-height: 500px;
+  padding:5rem;
+  margin-top: 4rem;
+}
+
+.phone-app-img{
+  margin-left: 10rem;
+}
+
+.get-d-app{
+  color: #2196f3;
+  font-size: 60px;
+}
+
+.hotel-logo-h3{
+  font-size: 35px;
+}
+
+.android-app-bookings{
+  font-size: 18px;
+  margin: 1% 0 5%;
+}
+
+.hotels-app{
+  padding: 10% 5% 10% 10%;
+}
+
+.unlock{
+  background-color: #084482;
+  padding: 2rem;
+  width: 100%;
+  bottom: 11.5rem;
+  position: relative;
+  
+}
+
+.unlock-hotel-deals{
+  display: flex;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.lock-symbol{
+  fill: #00aeff;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 35px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.email-unlock-deals{
+  margin: -0 0 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.secret-offer{
+  font-size: 14px;
+  color: #00AEFF;
+}
+
+.formm{
+  margin-left: 4rem;
+}
+
+.email2{
+  width: 25rem;
+  padding: 0.7rem;
+  background-color: #fff;
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+.unlock-btn{
+  border-radius: 4px;
+  width: 10rem;
+  padding: 0.7rem;
+  background-color: #00aeff;
+  color: #fff;
+}
+
+.footer{
   display: grid;
-  grid-gap:1rem;
-  grid-template-columns:2fr repeat(1,1fr) 1fr;
-  background: #ffffff;
+  font-size: 14px;
+  grid-gap:0.3rem;
+  color: #00aeff;
+  margin-right: 263px;
+  margin-left: 263px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.header{
+  color: #afa7ad;
+  border-bottom: 1px solid #e2e6e9;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
 }

@@ -57,7 +57,11 @@
     }
 
    .icon3{
-  padding-left: 201px;
+  /* padding-left: 201px; */
+   }
+
+   .fas{
+     color: #fff;
    }
 
   .acct{
@@ -229,7 +233,15 @@ form{
     grid-gap:1rem;
     margin-right: 227px;
     grid-template-columns: repeat(3, 1fr); 
-} 
+}
+
+.state,
+.numbas-of-hotels{
+  text-align: center;
+  /* color: #fff; */
+  position: relative;
+  top:30%;
+}
 
 .numbers-of-hotels-in-a-state{
   display: grid;
@@ -252,8 +264,9 @@ form{
 }
 
 .thirdsection{
-  padding: 4rem;
+  padding-top: 0.01rem;
   background-color: #fafafa;
+  
 }
 
 .thirdsection-header{
@@ -290,6 +303,7 @@ form{
   width: 28rem;
   margin-right: 10px;
   border-radius: 4px;
+  margin-bottom: 3rem;
 }
 
 .subscribebtn{
@@ -299,6 +313,7 @@ form{
  max-width: 120px;
  border-radius: 4px;
  padding: 0.7rem;
+ margin-bottom: 3rem;
 }
 
 .thirdsection-header{
@@ -370,15 +385,15 @@ text-align: center;
 .unlock{
   background-color: #084482;
   padding: 2rem;
-  width: 100%;
+  width: 96.1%;
   bottom: 11.5rem;
   position: relative; 
+
 }
 
 .unlock-hotel-deals{
   display: flex;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-left: 14rem;
 }
 
 .lock-symbol{
@@ -395,23 +410,27 @@ text-align: center;
   margin: -0 0 5px;
   font-size: 18px;
   color: #fff;
+
 }
 
 .secret-offer{
   font-size: 14px;
   color: #00AEFF;
+  margin-right: 14rem
 }
 
 .formm{
-  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .email2{
-  width: 25rem;
+  width: 23rem;
   padding: 0.7rem;
   background-color: #fff;
   border-radius: 4px;
   border-radius: 4px;
+  margin-left: -3rem;
+  margin-right: -1rem;
 }
 
 .unlock-btn{
@@ -438,3 +457,50 @@ text-align: center;
   padding-bottom: 2px;
   margin-bottom: 5px;
 }
+
+.second-footer{
+  display: flex;
+  border-top: 1px solid #e2e6e9;
+  padding: 20px 0;
+  margin-right: 263px;
+  margin-left: 263px;
+}
+
+.fab{
+  margin-left: 10px;
+  display: inline-block;
+  color: #657279;
+  margin: 0px 0px 0px 10px;
+  padding: 20px 0;
+}
+
+.copyright{
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1rem;
+  color: #657279;
+}
+
+.certified{
+  font-size: 14px;
+  margin-left: 15rem;   
+  padding: 20px 0;
+  color: #657279;
+}
+
+.nata-logo{
+  height: 5rem;
+  width: 5rem;
+  padding-block-end: 2rem;
+}
+
+.ntdc-logo{
+  height: 2.5rem;
+  width: 5rem;
+  padding-block-end: 3.3rem;
+    margin-left: -46px;
+}
+
+

@@ -1,25 +1,37 @@
 *{
   margin: 0;
-  border: 0;
   padding: 0;
   font-family:lato, sans-serif;
   }
 
   .heading{
-    display: grid;
     max-width: 100%;
     background-color: #00aeff;
   }
 
   .logo{
-    padding-left: 60px;
     color: #fff;
     font-weight: 100;
+    padding-right: 21rem;
+    margin-top: 0.1rem;
+  }
+
+
+  .whatsapp-btn{
+    border-right: 1px solid; 
+    min-height: 40x;
+    border-color: #fff;
+  }
+  .flag-naira-symbol{
+    border-right: 1px solid;
+    min-height: 40x;
+    border-color: #fff;
   }
 
   .navlist{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display:flex;
+    padding-left: 9rem;
+    margin-left: 4rem;;
   }
     
   .navbar-icon{
@@ -27,10 +39,16 @@
     height: 2rem;
   } 
 
+  .icon-whatsapp{
+    padding-left: 549px
+  }
+
    .btn{
-    padding: 0.1rem;
     background-color: darkblue;
     color: #fff;
+    position: absolute;
+    top: 5.1px;
+    left: 63rem;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
   }  
@@ -40,53 +58,39 @@
     border-radius: 35px;
     height: 2.6rem;
     width: 2.6rem;
-    margin-left: 90px
+    position: relative;
+    z-index: 1;
+    top: 1;
+    right: 9rem;
+    margin-right: 4rem;
+    
   } 
 
     .text{
     font-size: 10px;
     line-height: 12px;
     color: #00aeff;
+    padding-left: 1rem;
   }
-
-   .icon1{
-    padding-left: 201px;
-   }
-    .icon2{
-      margin-right: 42px
-    }
-
-   .icon3{
-  /* padding-left: 201px; */
-   }
 
    .fas{
      color: #fff;
+     position: relative;
+     top: 17rem;
    }
 
   .acct{
     color: #fff;
-    margin-right: 42px
+    margin-left: 3rem;
   }
  
 .icon-whatsapp{
-  padding-left: 201px;
+  padding-left: 448px;
+  position: relative;
+  top: 0;
+  right: 13rem;
 } 
-
-.icon1{
-  border-left: 1px solid;
-  min-height: 40x;
-  border-color: #fff;
-}
-.icon2{
-  border-right: 1px solid;
-  min-height: 40x;
-  border-color: #fff;
-}
  
-/* .humpic{
-  max-width: 100%;
-} */
 .firstsection{
   background-image: url(./asset/images/hotels-homepage1\ image.jpg);
   background-size: cover;
@@ -100,15 +104,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 15rem;
+  bottom: -6rem;
   color: #fff;
   background: rgba(51, 51, 5,);
-}
-
-.subsection{
-  /* width: 70%; */
-  /* position: sticky;
-  top: 0; */
 }
 
 form{
@@ -117,16 +115,16 @@ form{
   grid-template-columns:3fr repeat(1,2fr) 1fr;
   background: #fff;
   padding: 30px 40px 30px 40px;
-  /* position: relative;
-  bottom: 3rem; */
-  /* top: -40px; */
-  /* left: 12rem; */
+  /* position: relative; */
+  bottom: 3rem; 
+  top: -40px;
+  left: 12rem;
   box-shadow: 1px +6px +25px #888888;
   width: 70%;
   margin: -40px auto 0 auto;
   z-index: 10;
-  /* position: sticky;
-  top: 0px; */
+  position: sticky; 
+  top: 0px; 
 }
 
 .block{
@@ -475,7 +473,7 @@ text-align: center;
 }
 
 .copyright{
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
   margin-top: 15px;
   padding-bottom: 15px;
@@ -484,7 +482,7 @@ text-align: center;
 }
 
 .certified{
-  font-size: 14px;
+  font-size: 13px;
   margin-left: 15rem;   
   padding: 20px 0;
   color: #657279;
@@ -493,6 +491,7 @@ text-align: center;
 .nata-logo{
   height: 5rem;
   width: 5rem;
+  margin-left: -5px;
   padding-block-end: 2rem;
 }
 
@@ -500,7 +499,7 @@ text-align: center;
   height: 2.5rem;
   width: 5rem;
   padding-block-end: 3.3rem;
-    margin-left: -46px;
+  margin-left: -46px;
 }
 
 

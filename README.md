@@ -29,7 +29,7 @@ practice on  how to use modal when building a  website
 * https://twitter.com/hub_mic
 * https://www.linkedin.com/company/michub/
 
-# Live Demo ()
+# Live Demo (https://raw.githack.com/Esther94/Hotels.ng_clone/main/index.html)
 
 # 🤝 Contributions
 * This project is open to your comments and contributions.

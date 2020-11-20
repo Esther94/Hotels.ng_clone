@@ -5,7 +5,7 @@ practice on  how to use modal when building a  website
 
 ## 
 # Image
-![welcome interface.](asset/images/h.ng.PNG) "This is the cloned abercrombie website")
+![welcome interface.](asset/images/h.ng.PNG) "This is the hotel.ng cloned website")
 
 # Built With
 * HTML
